@@ -64,30 +64,16 @@ At low temperatures ($T \to 0$), the distribution collapses to the ground state 
 
 For two identical non-interacting particles in a 1D box, quantum mechanics dictates that the total spatial wavefunction must reflect exchange symmetry:
 
-* **Bosons (Symmetric spatial wavefunction):**
+**Bosons (Symmetric spatial wavefunction):**
 
 $$
-\Psi_b^{n_1,n_2}(x_1,x_2)
-=
-\frac{1}{\sqrt{2(1+\delta_{n_1,n_2})}}
-\left[
-\phi_{n_1}(x_1)\phi_{n_2}(x_2)
-+
-\phi_{n_1}(x_2)\phi_{n_2}(x_1)
-\right]
+\Psi_b^{n_1,n_2}(x_1,x_2) = \frac{1}{\sqrt{2(1+\delta_{n_1,n_2})}} \left[ \phi_{n_1}(x_1)\phi_{n_2}(x_2) + \phi_{n_1}(x_2)\phi_{n_2}(x_1) \right]
 $$
 
-* **Fermions (Antisymmetric spatial wavefunction, $n_1 \neq n_2$):**
+**Fermions (Antisymmetric spatial wavefunction, $n_1 \neq n_2$):**
 
 $$
-\Psi_f^{n_1,n_2}(x_1,x_2)
-=
-\frac{1}{\sqrt{2}}
-\left[
-\phi_{n_1}(x_1)\phi_{n_2}(x_2)
--
-\phi_{n_1}(x_2)\phi_{n_2}(x_1)
-\right]
+\Psi_f^{n_1,n_2}(x_1,x_2) = \frac{1}{\sqrt{2}} \left[ \phi_{n_1}(x_1)\phi_{n_2}(x_2) - \phi_{n_2}(x_1)\phi_{n_1}(x_2) \right]
 $$
 
 The joint thermal probability density $P_{\mathrm{th}}(x_1, x_2)$ is obtained by weighting joint states $|\Psi_{b/f}^{n_1, n_2}(x_1, x_2)|^2$ with the two-particle Boltzmann factor $e^{-\beta (E_{n_1} + E_{n_2})}$.
